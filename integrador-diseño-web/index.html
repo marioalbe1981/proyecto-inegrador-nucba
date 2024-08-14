@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div>
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="logo" />
+                    Decogar
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="login.html" class="btn login-btn">Entrar</a>
+                <a href="register.html" class="btn registro-btn">Registrarse</a>
+            </div>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="mobile-nav">
+            <ul class="mobile-nav-links">
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="login.html" class="btn login-btn">Entrar</a></li>
+                <li><a href="register.html" class="btn registro-btn">Registrarse</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Hogares Modernos</h1>
+            <p class="hero-text">Explora nuestra colección de muebles modernos y elegantes que transformarán tu hogar en un espacio único y acogedor.</p>
+            <a href="#products" class="btn-hero">Ver Productos</a>
+        </div>
+        <div class="hero-image">
+            <img src="img/banner2.png" alt="Muebles Modernos">
+        </div>
+    </div>
+    
+
+    <section id="about" class="about-section">
+        <div class="container-about">
+            <div class="about-content">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos una empresa dedicada a ofrecer muebles modernos y elegantes que se adaptan a cualquier estilo de vida. Con años de experiencia en la industria, nos esforzamos por brindar productos de alta calidad que transformen los espacios de nuestros clientes en lugares acogedores y funcionales.</p>
+                <p>Nuestro compromiso con la excelencia se refleja en cada uno de nuestros diseños, combinando estética y funcionalidad para crear muebles que no solo embellecen, sino que también mejoran la calidad de vida de quienes los eligen.</p>
+            </div>
+            <div class="about-image">
+                <img src="img/banner-about.png" alt="Sobre Nosotros">
+            </div>
+        </div>
+    </section>
+    
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="img/item-1.png" alt="Producto 1">
+                    <h3 class="product-title">Silla Básica</h3>
+                    <p class="product-price">$29.99</p>
+                    <a href="#" class="btn-buy">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <img src="img/item-2.png" alt="Producto 2">
+                    <h3 class="product-title">Sillón Moderno</h3>
+                    <p class="product-price">$39.99</p>
+                    <a href="#" class="btn-buy">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <img src="img/item-4.png" alt="Producto 3">
+                    <h3 class="product-title">Sillón Colgante</h3>
+                    <p class="product-price">$49.99</p>
+                    <a href="#" class="btn-buy">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact-section">
+        <div class="container-formu">
+            <div class="contact-form">
+                <h2>Contáctanos</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar</button>
+                </form>
+            </div>
+            <div class="contact-map">
+                <h2>Nuestra Ubicación</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345095964!2d144.95592831531686!3d-37.81720997975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577cd7f02249c2c!2sVictoria%20State%20Library%2C%20Australia!5e0!3m2!1sen!2sau!4v1586487310073!5m2!1sen!2sau" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container-footer">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#products">Productos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p><strong>Teléfono:</strong> +3516627500</p>
+                    <p><strong>Email:</strong> info@decohogar.com</p>
+                    <p><strong>Dirección:</strong> Calle Coratza 54, Cordóba, Argentina</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <ul>
+                        <li><a href="#"><img src="img/facebook.svg" alt="Facebook"></a></li>
+                        <li>
+                            <a href="#">
+                            <img class="social" src="img/x.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li><a href="#"><img src="img/instagram.svg" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Decohogar. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+</body>
+</html>
